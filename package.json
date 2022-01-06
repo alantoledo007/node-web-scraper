@@ -1,0 +1,20 @@
+{
+  "name": "web-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alantoledo007/node-web-scraper.git"
+  },
+  "author": "Alan Toledo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alantoledo007/node-web-scraper/issues"
+  },
+  "homepage": "https://github.com/alantoledo007/node-web-scraper#readme"
+}
