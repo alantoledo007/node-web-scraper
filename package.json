@@ -5,7 +5,9 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel lib -d dist",
+    "dev": "nodemon --exec babel-node lib/index.js",
+    "serve": "node dist/index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,14 @@
   "bugs": {
     "url": "https://github.com/alantoledo007/node-web-scraper/issues"
   },
-  "homepage": "https://github.com/alantoledo007/node-web-scraper#readme"
+  "homepage": "https://github.com/alantoledo007/node-web-scraper#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.16.7",
+    "@babel/core": "^7.16.7",
+    "@babel/node": "^7.16.7",
+    "@babel/plugin-transform-runtime": "^7.16.7",
+    "@babel/preset-env": "^7.16.7",
+    "@babel/runtime": "^7.16.7",
+    "nodemon": "^2.0.15"
+  }
 }
